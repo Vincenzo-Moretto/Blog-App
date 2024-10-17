@@ -1,0 +1,34 @@
+/* Footer.css */
+.footer-container {
+  background-color: #000; /* Nero */
+  padding: 2rem 0;
+}
+
+.footer-column p {
+  margin-bottom: 0.75rem;
+  color: #e5e7eb; /* Grigio chiaro */
+  transition: color 0.3s ease;
+}
+
+.footer-column p:hover {
+  color: #3b82f6; /* Blu chiaro al passaggio del mouse */
+}
+
+.footer-text-center {
+  background-color: #000;
+  color: #e5e7eb;
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+  border-top: 1px solid #1f2937; /* Linea divisoria sottile */
+}
+
+.footer-text-center span {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
